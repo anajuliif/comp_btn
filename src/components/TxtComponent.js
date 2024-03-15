@@ -1,7 +1,9 @@
-import React from "react";
-import { View, Text } from "react-native";
+import React from "react"; // Importa o React
+import { Text } from "react-native"; // Importa o componente Text do React Native
 
+// Declaração do componente TxtComponent
 const TxtComponent = ({ children }) => {
-  return <Text>{children}</Text>;
+  return <Text>{children}</Text>; // Retorna o componente Text com os children (filhos) passados para ele
 };
-export default TxtComponent;
+
+export default TxtComponent; // Exporta o componente TxtComponent para uso em outros lugares
